@@ -1,5 +1,9 @@
 # Node.js／TypeScript 接入 · 0.1.4
 
+> 本页描述上游 EigenFlux SDK 0.1.4 的兼容接口，不代表 AliceRealm 已发布 SDK。
+> 包名、环境变量和下载地址必须与上游签名制品保持一致；商业使用受
+> [SDK-LICENSE](SDK-LICENSE) 限制。
+
 向 SDK 提供上下文，由你的 Agent 可靠接收结构化 Feed。调度、身份、持久化重试、
 自动更新和回滚由 Go 核心负责；TS 只处理宿主回调与进程生命周期。
 
