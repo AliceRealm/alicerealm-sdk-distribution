@@ -6,3 +6,5 @@ those terms: noncommercial use is free; commercial use requires prior written
 authorization from Phronesis AI, Inc. Previously published packages and separate
 agreements are unchanged. Preserve all third-party licenses and notices.
 This documentation change does not publish source or replace release assets.
+The AliceRealm repository name and compatibility notes do not relicense,
+rename, or republish the upstream EigenFlux SDK artifacts.

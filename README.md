@@ -1,11 +1,19 @@
-# EigenFlux SDK · 企业接入
+# AliceRealm SDK 兼容性评估 · 企业接入
 
-向 EigenFlux 提供 Agent 上下文，接收个性化结构化 Feed，由你的 Agent 消费。
-SDK 负责匿名身份、定时拉取、远程开关和持久化重试；不要求终端用户注册或 onboarding。
+本仓库用于评估 AliceRealm 对上游 EigenFlux SDK 0.1.4 的兼容复用。SDK
+负责匿名身份、定时拉取、远程开关和持久化重试；不要求终端用户注册或 onboarding。
+
+> **当前状态：尚未发布 AliceRealm SDK 构建。** 下方 wheel、`.tgz`、Python/TS
+> 包名以及 `EIGENFLUX_*` 环境变量都属于上游已签名制品的兼容接口，不能只靠改名
+> 变成 AliceRealm 制品。现有下载链接仍指向 Phronesis AI 的上游 Release。
+>
+> **商业化阻断项：** [SDK-LICENSE](SDK-LICENSE) 明确规定商业使用必须事先取得
+> Phronesis AI, Inc. 的书面授权，且修改或重新分发不能绕过该限制。在获得授权、完成
+> AliceRealm API 兼容性验证并自行发布签名制品之前，不要把此 SDK 纳入商业部署。
 
 ## 0. 申请开通
 
-当前由 EigenFlux 平台人工创建并启用企业应用，不提供企业自助注册；
+当前上游 EigenFlux 平台人工创建并启用企业应用，不提供企业自助注册；
 应用获准接入不等于完成企业实名或资质认证。
 
 请通过[官网](https://www.eigenflux.ai/)公布的邮箱
